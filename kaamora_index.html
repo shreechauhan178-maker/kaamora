@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Kaamora — रोजमर्रा के डिजिटल कामों के लिए मुफ्त ऑनलाइन टूल।">
+<title>Kaamora — Make Life Easier</title>
+<style>
+:root{--ink:#172033;--muted:#667085;--bg:#f5f7fb;--card:#fff;--brand:#4f46e5;--brand2:#7c3aed;--line:#e6e9f2;--green:#087f5b}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:system-ui,-apple-system,"Noto Sans Devanagari",Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.55}
+header{background:linear-gradient(120deg,#312e81,#6d28d9);color:#fff;padding:18px 16px 58px}
+nav,.wrap{max-width:1050px;margin:auto}nav{display:flex;align-items:center;justify-content:space-between;gap:16px} .logo{font-size:1.45rem;font-weight:850;letter-spacing:-.5px}.logo span{color:#c4b5fd}nav a{color:#fff;text-decoration:none;font-size:.95rem;margin-left:14px}
+.hero{max-width:1050px;margin:45px auto 0}.eyebrow{display:inline-block;border:1px solid #ffffff55;background:#ffffff18;padding:5px 11px;border-radius:99px;font-size:.85rem}.hero h1{font-size:clamp(2rem,6vw,3.5rem);line-height:1.12;max-width:700px;margin:17px 0 12px;letter-spacing:-1px}.hero p{max-width:640px;color:#e9e7ff;font-size:1.05rem;margin:0 0 22px}.btn{display:inline-block;border:0;border-radius:11px;padding:11px 16px;font:inherit;font-weight:700;text-decoration:none;cursor:pointer}.btn-primary{background:#fff;color:#4338ca}.btn-brand{background:var(--brand);color:#fff}.btn-light{background:#eef2ff;color:#3730a3}.wrap{padding:0 16px}.tool-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:-30px}.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px;box-shadow:0 10px 30px #18254a0b}.tool-card{min-height:170px}.icon{width:43px;height:43px;border-radius:13px;display:grid;place-items:center;background:#eeecff;font-size:1.35rem;margin-bottom:13px}.card h2,.card h3{margin:0 0 7px;line-height:1.3}.card p{color:var(--muted);margin:0 0 15px;font-size:.94rem}.section-title{margin:42px 0 16px}.section-title h2{margin:0;font-size:1.7rem}.section-title p{margin:5px 0;color:var(--muted)}.tool-panel{margin:16px 0 0;scroll-margin-top:18px}.tool-panel h2{font-size:1.35rem;margin:0 0 5px}.fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.field{display:flex;flex-direction:column;gap:6px;margin:9px 0}.field label{font-weight:650;font-size:.93rem}.field input,.field select,.field textarea{width:100%;border:1px solid #d7dceb;border-radius:10px;padding:11px 12px;font:inherit;background:#fff;color:var(--ink)}.field textarea{min-height:130px;resize:vertical}.result{margin-top:12px;padding:13px;border-radius:12px;background:#f0fdf4;border:1px solid #bbf7d0;color:#166534;white-space:pre-wrap;overflow-wrap:anywhere}.hidden{display:none!important}.note{font-size:.88rem;color:var(--muted)}.actions{display:flex;flex-wrap:wrap;gap:9px;margin-top:10px}footer{margin-top:48px;padding:26px 16px;background:#111827;color:#d1d5db;text-align:center;font-size:.9rem}footer strong{color:#fff}.badge{display:inline-block;background:#ecfdf5;color:#047857;padding:4px 9px;border-radius:99px;font-size:.78rem;font-weight:750}
+@media(max-width:760px){.tool-grid{grid-template-columns:1fr}.tool-card{min-height:auto}.fields{grid-template-columns:1fr}nav a{margin-left:8px;font-size:.86rem}.hero{margin-top:32px}.card{padding:17px}}
+</style>
+</head>
+<body>
+<header>
+  <nav>
+    <div class="logo">Kaamora<span>.</span></div>
+    <div><a href="#tools">टूल्स</a><a href="#about">हमारे बारे में</a></div>
+  </nav>
+  <div class="hero">
+    <span class="eyebrow">मुफ्त डिजिटल टूल्स • मोबाइल-फ्रेंडली</span>
+    <h1>रोज़मर्रा के डिजिटल काम, अब आसान।</h1>
+    <p>उम्र निकालें, प्रतिशत की गणना करें और हिंदी में आवेदन का मसौदा तैयार करें—सीधे अपने मोबाइल पर।</p>
+    <a class="btn btn-primary" href="#tools">टूल इस्तेमाल करें ↓</a>
+  </div>
+</header>
+<main class="wrap" id="tools">
+  <div class="tool-grid">
+    <article class="card tool-card"><div class="icon">🎂</div><h3>Age Calculator</h3><p>जन्मतिथि से उम्र साल, महीने और दिनों में निकालें।</p><a class="btn btn-light" href="#age">खोलें</a></article>
+    <article class="card tool-card"><div class="icon">％</div><h3>Percentage Calculator</h3><p>प्राप्त अंक और कुल अंक से प्रतिशत निकालें।</p><a class="btn btn-light" href="#percentage">खोलें</a></article>
+    <article class="card tool-card"><div class="icon">📝</div><h3>Hindi Application Maker</h3><p>अपनी जानकारी भरकर आवेदन का मसौदा बनाएँ।</p><a class="btn btn-light" href="#application">खोलें</a></article>
+  </div>
+
+  <div class="section-title"><h2>हमारे मुफ्त टूल</h2><p>टूल चुनें, जानकारी भरें और परिणाम पाएँ।</p></div>
+
+  <section class="card tool-panel" id="age">
+    <h2>🎂 Age Calculator — उम्र कैलकुलेटर</h2>
+    <p class="note">अपनी जन्मतिथि चुनें। गणना आपके डिवाइस की वर्तमान तारीख के आधार पर होगी।</p>
+    <div class="fields"><div class="field"><label for="birthdate">जन्मतिथि</label><input type="date" id="birthdate"></div></div>
+    <div class="actions"><button class="btn btn-brand" onclick="calcAge()">उम्र निकालें</button></div>
+    <div id="ageResult" class="result hidden" aria-live="polite"></div>
+  </section>
+
+  <section class="card tool-panel" id="percentage">
+    <h2>％ Percentage Calculator — प्रतिशत कैलकुलेटर</h2>
+    <div class="fields">
+      <div class="field"><label for="obtained">प्राप्त अंक</label><input id="obtained" type="number" min="0" step="any" placeholder="जैसे 425"></div>
+      <div class="field"><label for="total">कुल अंक</label><input id="total" type="number" min="0" step="any" placeholder="जैसे 500"></div>
+    </div>
+    <div class="actions"><button class="btn btn-brand" onclick="calcPercent()">प्रतिशत निकालें</button></div>
+    <div id="percentResult" class="result hidden" aria-live="polite"></div>
+  </section>
+
+  <section class="card tool-panel" id="application">
+    <h2>📝 Hindi Application Maker — आवेदन का मसौदा</h2>
+    <p class="note">यह सामान्य आवेदन का मसौदा बनाता है। भेजने से पहले विवरण और आवश्यक नियम जाँच लें।</p>
+    <div class="fields">
+      <div class="field"><label for="recipient">सेवा में (अधिकारी/संस्था)</label><input id="recipient" placeholder="जैसे, शाखा प्रबंधक"></div>
+      <div class="field"><label for="subject">विषय</label><input id="subject" placeholder="जैसे, बैंक खाते में मोबाइल नंबर बदलने हेतु"></div>
+      <div class="field"><label for="applicant">आपका नाम</label><input id="applicant" placeholder="अपना नाम लिखें"></div>
+      <div class="field"><label for="place">गाँव/शहर</label><input id="place" placeholder="अपना गाँव या शहर"></div>
+    </div>
+    <div class="field"><label for="details">आवेदन का कारण/विवरण</label><textarea id="details" placeholder="आपको क्या अनुरोध करना है, सरल भाषा में लिखें।"></textarea></div>
+    <div class="actions"><button class="btn btn-brand" onclick="makeApplication()">आवेदन तैयार करें</button><button class="btn btn-light" onclick="clearApplication()">साफ करें</button></div>
+    <div id="applicationResult" class="result hidden" aria-live="polite"></div>
+    <div class="actions"><button id="copyApp" class="btn btn-light hidden" onclick="copyApplication()">कॉपी करें</button><button id="downloadApp" class="btn btn-light hidden" onclick="downloadApplication()">TXT डाउनलोड करें</button></div>
+  </section>
+
+  <section class="card tool-panel" id="about">
+    <h2>Kaamora के बारे में</h2>
+    <p>Kaamora एक शुरुआती प्रोटोटाइप है, जिसका उद्देश्य उपयोगी डिजिटल कामों को सरल बनाना है। अभी उपलब्ध टूल्स बुनियादी संस्करण हैं।</p>
+    <span class="badge">प्रोटोटाइप संस्करण</span>
+    <p class="note" style="margin-top:12px">गोपनीयता: ये टूल आपके ब्राउज़र में गणना/मसौदा तैयार करते हैं और इस पेज में कोई सर्वर पर डेटा भेजने वाला कोड शामिल नहीं है। ऑनलाइन प्रकाशित करने से पहले अपनी संपर्क और गोपनीयता जानकारी जोड़ें।</p>
+  </section>
+</main>
+<footer><strong>Kaamora.</strong> — Make Life Easier.<br>© <span id="year"></span> Kaamora. उपयोगी टूल्स, सरल अनुभव।</footer>
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+function showResult(id, text){const el=document.getElementById(id);el.textContent=text;el.classList.remove('hidden')}
+function calcAge(){
+  const value=document.getElementById('birthdate').value;
+  if(!value){showResult('ageResult','कृपया जन्मतिथि चुनें।');return}
+  const birth=new Date(value+'T00:00:00');
+  const now=new Date(); now.setHours(0,0,0,0);
+  if(Number.isNaN(birth.getTime())||birth>now){showResult('ageResult','कृपया सही जन्मतिथि चुनें जो भविष्य में न हो।');return}
+  let y=now.getFullYear()-birth.getFullYear(), m=now.getMonth()-birth.getMonth(), d=now.getDate()-birth.getDate();
+  if(d<0){m--;const prevMonthDays=new Date(now.getFullYear(),now.getMonth(),0).getDate();d+=prevMonthDays}
+  if(m<0){y--;m+=12}
+  showResult('ageResult',`आपकी उम्र: ${y} साल, ${m} महीने और ${d} दिन।`);
+}
+function calcPercent(){
+  const got=Number(document.getElementById('obtained').value), total=Number(document.getElementById('total').value);
+  if(document.getElementById('obtained').value===''||document.getElementById('total').value===''||!Number.isFinite(got)||!Number.isFinite(total)||got<0||total<=0||got>total){showResult('percentResult','कृपया सही अंक भरें। कुल अंक शून्य से अधिक हों और प्राप्त अंक कुल अंकों से ज्यादा न हों।');return}
+  showResult('percentResult',`आपका प्रतिशत: ${(got/total*100).toFixed(2)}%`);
+}
+let appText='';
+function makeApplication(){
+ const recipient=document.getElementById('recipient').value.trim(), subject=document.getElementById('subject').value.trim(), applicant=document.getElementById('applicant').value.trim(), place=document.getElementById('place').value.trim(), details=document.getElementById('details').value.trim();
+ if(!recipient||!subject||!applicant||!details){showResult('applicationResult','कृपया अधिकारी/संस्था, विषय, अपना नाम और आवेदन का विवरण भरें।');document.getElementById('copyApp').classList.add('hidden');document.getElementById('downloadApp').classList.add('hidden');return}
+ appText=`सेवा में,\n${recipient}\n\nविषय: ${subject}\n\nमहोदय/महोदया,\n\nसविनय निवेदन है कि ${details}\n\nअतः आपसे निवेदन है कि कृपया मेरे अनुरोध पर उचित कार्यवाही करने की कृपा करें।\n\nधन्यवाद।\n\nभवदीय,\n${applicant}${place?'\nस्थान: '+place:''}\nदिनांक: ${new Date().toLocaleDateString('hi-IN')}`;
+ showResult('applicationResult',appText);document.getElementById('copyApp').classList.remove('hidden');document.getElementById('downloadApp').classList.remove('hidden');
+}
+async function copyApplication(){
+ try{await navigator.clipboard.writeText(appText);document.getElementById('copyApp').textContent='कॉपी हो गया ✓';setTimeout(()=>document.getElementById('copyApp').textContent='कॉपी करें',1800)}
+ catch(e){showResult('applicationResult',appText+'\n\n(कॉपी करने के लिए टेक्स्ट को दबाकर चुनें और Copy करें।)')}
+}
+function downloadApplication(){
+ const blob=new Blob([appText],{type:'text/plain;charset=utf-8'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='kaamora-application.txt';a.click();URL.revokeObjectURL(url);
+}
+</script>
+</body>
+</html>
