@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://shreechauhan178-maker.github.io/kaamora/sitemap.xml
